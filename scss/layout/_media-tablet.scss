@@ -95,7 +95,7 @@
     .config1{
         display: grid;
         grid-area: body;
-        grid-template-rows: 100px 440px 100px;
+        grid-template-rows: 100px 500px 100px;
         grid-template-areas: 
         "body"
         "main"
@@ -122,7 +122,7 @@
     .config2{
         display: grid;
         grid-area: body;
-        grid-template-rows: 100px 640px 100px;
+        grid-template-rows: 100px 500px 100px;
         grid-template-areas: 
         "body"
         "main"
@@ -234,6 +234,7 @@
             margin: auto;
             margin-top: 10px;
             width: 100px;
+            margin-bottom: 10px;
         }
         
         .datos{

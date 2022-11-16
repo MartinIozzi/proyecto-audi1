@@ -69,7 +69,7 @@
 @media (max-width:576px){
     .estructura{
         display: block;
-        margin-left: 90px;
+        margin-left: 75px;
     }
 
     .info-autos{
@@ -241,6 +241,7 @@
             margin: auto;
             margin-top: 10px;
             width: 100px;
+            margin-bottom: 10px;
         }
         
         .datos{
@@ -332,7 +333,8 @@
 @media (max-width:400px){
     .estructura{
         display: block;
-        margin-left: 50px;
+        margin-left: 0px;
+        width: 400px;
     }
 
     .info-autos .mobile{
@@ -514,6 +516,7 @@ fieldset legend{
     margin: auto;
     margin-top: 10px;
     width: 100px;
+    margin-bottom: 10px;
 }
 
 .datos{

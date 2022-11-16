@@ -395,7 +395,7 @@ footer {
   .config1 {
     display: grid;
     grid-area: body;
-    grid-template-rows: 100px 440px 100px;
+    grid-template-rows: 100px 500px 100px;
     grid-template-areas: "body" "main" "footer"; }
   .modelo {
     border: solid black;
@@ -413,7 +413,7 @@ footer {
   .config2 {
     display: grid;
     grid-area: body;
-    grid-template-rows: 100px 640px 100px;
+    grid-template-rows: 100px 500px 100px;
     grid-template-areas: "body" "main" "footer"; }
   .servicio-cliente {
     margin-top: 0px; }
@@ -488,7 +488,8 @@ footer {
     display: block;
     margin: auto;
     margin-top: 10px;
-    width: 100px; }
+    width: 100px;
+    margin-bottom: 10px; }
   .datos {
     gap: 10px;
     font-size: x-large;
@@ -553,7 +554,7 @@ footer {
 @media (max-width: 576px) {
   .estructura {
     display: block;
-    margin-left: 90px; }
+    margin-left: 75px; }
   .info-autos {
     width: 400px;
     margin-bottom: 10px; }
@@ -667,7 +668,8 @@ footer {
     display: block;
     margin: auto;
     margin-top: 10px;
-    width: 100px; }
+    width: 100px;
+    margin-bottom: 10px; }
   .datos {
     gap: 10px;
     font-size: x-large;
@@ -732,7 +734,8 @@ footer {
 @media (max-width: 400px) {
   .estructura {
     display: block;
-    margin-left: 50px; }
+    margin-left: 0px;
+    width: 400px; }
   .info-autos .mobile {
     width: 400px;
     margin-bottom: 10px; }
@@ -852,7 +855,8 @@ footer {
     display: block;
     margin: auto;
     margin-top: 10px;
-    width: 100px; }
+    width: 100px;
+    margin-bottom: 10px; }
   .datos {
     gap: 10px;
     font-size: x-large;
