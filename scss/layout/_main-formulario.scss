@@ -25,7 +25,8 @@ fieldset legend{
 }
 
 .holder{
-    width: 300px;
+    width: 400px;
+    float: right;
 }
 
 .text-area{
@@ -39,6 +40,7 @@ fieldset legend{
     margin: auto;
     margin-top: 10px;
     width: 100px;
+    margin-bottom: 10px;
 }
 
 .datos{
@@ -57,3 +59,5 @@ fieldset legend{
     font-weight: bolder;
     text-align: center;
 }
+
+
